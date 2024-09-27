@@ -1,0 +1,26 @@
+__   ________ ______ ______ 
+\ \ / /| ___ \| ___ \| ___ \
+ \ V / | |_/ /| |_/ /| |_/ /
+  \ /  |    / |    / |  __/ 
+  | |  | |\ \ | |\ \ | |    
+  \_/  \_| \_|\_| \_|\_|    
+
+
+Licença GNU - Pirataria é crime, não roubem barcos
+
+@@@@@@@@@@@@@@
+                            
+Descrição:
+
+O que o script vai fazer:
+Escanear as portas de um host utilizando o Nmap.
+Identificar os serviços rodando nas portas abertas.
+Mapear vulnerabilidades conhecidas para cada serviço encontrado.
+Gerar um relatório de vulnerabilidades.
+Instalações Necessárias:
+Nmap: Certifique-se de ter o Nmap instalado no seu sistema.
+No Linux: sudo apt install nmap
+No Mac: brew install nmap
+No Windows: Baixar e instalar a versão do site oficial Nmap.
+Biblioteca python-nmap: Para integrar o Nmap com o Python.
+Instale com: pip install python-nmap

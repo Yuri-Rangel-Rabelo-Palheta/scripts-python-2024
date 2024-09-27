@@ -1,0 +1,54 @@
+__   ________ ______ ______ 
+\ \ / /| ___ \| ___ \| ___ \
+ \ V / | |_/ /| |_/ /| |_/ /
+  \ /  |    / |    / |  __/ 
+  | |  | |\ \ | |\ \ | |    
+  \_/  \_| \_|\_| \_|\_|    
+
+
+Licença GNU - Pirataria é crime, não roubem barcos
+
+@@@@@@@@@@@@@@
+                            
+Descrição:
+
+Funcionalidades:
+
+    -Gerar Senhas Seguras: O sistema deverá gerar senhas seguras, com base nos critérios de complexidade definidos pelo usuário (comprimento, uso de letras maiúsculas, minúsculas, números e símbolos).
+
+    -Armazenar Senhas Criptografadas: As senhas geradas devem ser armazenadas em um arquivo ou banco de dados de forma criptografada.
+
+    -Recuperar Senhas: O usuário poderá listar ou buscar as senhas de sites ou serviços de forma segura.
+
+    -Autenticação para Acessar o Gerenciador: Para garantir segurança, o gerenciador deve ter um mecanismo de login.
+
+-------------------------------------
+
+Bibliotecas necessárias:
+
+random para geração de senhas.
+cryptography para criptografia e decriptografia de dados sensíveis.
+getpass para coleta de senha sem exibir no terminal.
+sqlite3 (ou arquivos .txt) para armazenamento.
+
+-------------------------------------
+
+Estrutura do Projeto:
+
+Geração de Senhas Seguras:
+
+    Comprimento personalizável.
+    Opções para incluir letras, números e símbolos.
+
+Armazenamento Seguro:
+
+Criptografar as senhas antes de armazenar.
+    Armazenamento pode ser em um banco de dados SQLite ou em um arquivo texto.
+
+Recuperação de Senhas:
+
+    As senhas armazenadas podem ser descriptografadas e exibidas para o usuário após autenticação.
+
+Autenticação de Usuário:
+
+    Autenticação com senha mestre para abrir o gerenciador.
