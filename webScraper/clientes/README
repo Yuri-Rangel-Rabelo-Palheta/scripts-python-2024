@@ -1,0 +1,12 @@
+Projeto web scraper
+
+    esse projeto serve para implementar um coletor de dados para possiveis clientes
+
+Para executar deve instalar
+
+    pip install requests beautifulsoup4
+    pip install selenium
+
+executar
+
+    python main.py

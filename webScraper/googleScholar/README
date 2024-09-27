@@ -1,0 +1,30 @@
+__   ________ ______ ______ 
+\ \ / /| ___ \| ___ \| ___ \
+ \ V / | |_/ /| |_/ /| |_/ /
+  \ /  |    / |    / |  __/ 
+  | |  | |\ \ | |\ \ | |    
+  \_/  \_| \_|\_| \_|\_|    
+
+
+Licença GNU - Pirataria é crime, não roubem barcos
+
+@@@@@@@@@@@@@@
+                            
+Descrição:
+
+Esse projeto é um WEBSCRAPER em python para buscar e salvar os metadados de uma
+pesquisa no google academico. Quero melhorar e expandir para outras bases.
+Usa bealtifullsoup, selenium e pandas. 
+Também precisa do chromedrive.
+
+
+Configuração inicial:
+
+pip install selenium beautifulsoup4 pandas
+
+baixar o chromedrive : https://developer.chrome.com/docs/chromedriver/downloads?hl=pt-br
+
+Divirtam-se.
+
+"No mar os carros são como lanchas, as motos são como jetskys e os pedestres são como os banhistas"
+-Governo
